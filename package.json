@@ -1,7 +1,6 @@
 {
   "name": "jan-icon",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^20.12.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-dts": "^3.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -25,12 +26,24 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   },
-  "main": "./dist/react-library-scaffold.umd.js",
-  "module": "./dist/react-library-scaffold.es.js",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/react-library-scaffold.es.js",
-      "require": "./dist/react-library-scaffold.umd.js"
-    }
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles": "./dist/style.css"
+  },
+  "files": [
+    "/dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   }
 }
