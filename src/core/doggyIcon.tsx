@@ -6,7 +6,7 @@ type Props = {
   style?: any;
 };
 
-const JanIcon = ({ icon = "", style }: Props) => {
+const DoggyIcon = ({ icon = "", style }: Props) => {
   useEffect(() => {
     if (!icon) {
       console.error("icon is not defined!!!");
@@ -20,4 +20,4 @@ const JanIcon = ({ icon = "", style }: Props) => {
   );
 };
 
-export default JanIcon;
+export default DoggyIcon;
