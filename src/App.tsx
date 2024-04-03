@@ -1,10 +1,10 @@
 import "./App.css";
-import JanIcon from "./core/jan-icon";
+import DoggyIcon from "./core/doggyIcon";
 
 function App() {
   return (
     <>
-      <JanIcon icon="search" style={{ width: "100px", height: "100px" }} />
+      <DoggyIcon icon="search" style={{ width: "100px", height: "100px" }} />
     </>
   );
 }
