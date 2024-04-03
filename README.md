@@ -1,13 +1,46 @@
-<div style="text-align:center">
+<!-- <div style="text-align:center"> -->
+<p align="center">
 <img src="./public/doggy_logo.svg" />
-<h1>Doggy_icon</h1>
-</div>
-
----
+</p>
+<h1 align="center">Doggy_icon</h1>
+<!-- </div> -->
 
 This is an icon resource library designed with a focus on backtesting projects.
 
 ---
+
+### Installation
+
+Install doggy_icon using yarn
+
+```bash
+yarn add doggy_icon
+```
+
+npm
+
+```bash
+npm i doggy_icon
+```
+
+or pnpm
+
+```bash
+pnpm i doggy_icon
+```
+
+### Usage
+
+```js
+import DoggyIcon from "doggy_icon";
+
+<DoggyIcon icon="search" />;
+```
+
+### Options
+
+- icon
+- style
 
 ### Contributor
 
