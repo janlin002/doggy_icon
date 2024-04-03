@@ -8,6 +8,21 @@ import stop_profit from './stop_profit.svg'
 import holding_time from './holding_time.svg'
 import automatic_updates from './automatic_updates.svg'
 import performance from './performance.svg'
+import copy from './copy.svg'
+import share from './share.svg'
+import editing from './editing.svg'
+import delete_icon from './delete.svg'
+import new_folder from './new_folder.svg'
+import folder from './folder.svg'
+import add from './add.svg'
+import funnels from './funnels.svg'
+import more from './more.svg'
+import card_mode from './card_mode.svg'
+import table_mode from './table_mode.svg'
+import info from './info.svg'
+import notifications from './notifications.svg'
+import magnifier from './magnifier.svg'
+import cross from './cross.svg'
 
 const Icon: { [key: string]: string } = {
   search,
@@ -19,7 +34,22 @@ const Icon: { [key: string]: string } = {
   stop_profit,
   holding_time,
   automatic_updates,
-  performance
+  performance,
+  copy,
+  share,
+  editing,
+  delete_icon,
+  new_folder,
+  folder,
+  add,
+  funnels,
+  more,
+  card_mode,
+  table_mode,
+  info,
+  notifications,
+  magnifier,
+  cross
 };
 
 export default Icon;
