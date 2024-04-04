@@ -40,6 +40,7 @@ import DoggyIcon from "doggy_icon";
 ### Options
 
 - icon
+- size: small | medium | large
 - style
 
 ### Contributor
@@ -64,6 +65,14 @@ import DoggyIcon from "doggy_icon";
       <br />
       <a href="#talk-saplingt" title="Talks">🎨</a>
     </td> -->
-    <td align="center" valign="top" width="14.28%"><a href="https://joanna-design.myportfolio.com/about"><img src="https://media.discordapp.net/attachments/1224575941129539748/1225013161300590662/01.jpg?ex=661f9569&is=660d2069&hm=67e6cbd778059e34fc2d0e63998e491eb3dd5d2258a27318bbdde8371b54cbcc&=&format=webp&width=100&height=100" width="100px;" height="100px" alt="Toni Dezman"/><br /><sub><b>joanna</b></sub></a><br /><a href="#developer-joanna" title="Code">🎨</a></td>
+    <td align="center" valign="top" width="14.28%">
+      <a href="https://joanna-design.myportfolio.com/about">
+        <img src="https://media.discordapp.net/attachments/1224575941129539748/1225013161300590662/01.jpg?ex=661f9569&is=660d2069&hm=67e6cbd778059e34fc2d0e63998e491eb3dd5d2258a27318bbdde8371b54cbcc&=&format=webp&width=100&height=100" width="100px;" height="100px" alt="Toni Dezman"/>
+        <br />
+        <sub><b>joanna</b></sub>
+      </a>
+        <br />
+          <a href="#designer-joanna" title="Design">🎨</a>
+        </td>
   </tr>
 </table>
