@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta } from "@storybook/react";
 import DoggyIcon from "../core/doggyIcon";
 
 const ICONS = [
