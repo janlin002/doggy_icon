@@ -49,7 +49,7 @@ import DoggyIcon from "doggy_icon";
   <tr>
     <td align="center" valign="top" width="14.28%">
       <a href="https://github.com/janlin002">
-        <img src="./public/jan.png" width="100px" height="100px" style="object-fit: cover;" alt=""/>
+        <img src="./public/jan.png" width="100px" height="100px" style="object-fit: cover" alt=""/>
         <br />
         <sub><b>janlin002</b></sub>
       </a>
@@ -67,12 +67,12 @@ import DoggyIcon from "doggy_icon";
     </td> -->
     <td align="center" valign="top" width="14.28%">
       <a href="https://joanna-design.myportfolio.com/about">
-        <img src="https://media.discordapp.net/attachments/1224575941129539748/1225013161300590662/01.jpg?ex=661f9569&is=660d2069&hm=67e6cbd778059e34fc2d0e63998e491eb3dd5d2258a27318bbdde8371b54cbcc&=&format=webp&width=100&height=100" width="100px;" height="100px" alt="Toni Dezman"/>
+        <img src="./public/01.png" width="100px" height="100px" style="object-fit: cover" alt="joanna"/>
         <br />
         <sub><b>joanna</b></sub>
       </a>
         <br />
-          <a href="#designer-joanna" title="Design">🎨</a>
-        </td>
+        <a href="#designer-joanna" title="Design">🎨</a>
+    </td>
   </tr>
 </table>
