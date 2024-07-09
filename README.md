@@ -44,7 +44,13 @@ import DoggyIcon from "doggy_icon";
 - colorType: primary | destructive | safe | warning | info
 - style
 
-If you need to customize properties, you can enter your custom properties in the "style".
+If you need to customize properties, you can enter your custom properties in the "style".  
+example:
+
+```js
+//Customize Color
+<DoggyIcon icon="search" style={{ fill: "#fff" }} /> // icon color will be white
+```
 
 ### Contributor
 
