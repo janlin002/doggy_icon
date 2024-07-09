@@ -1,3 +1,4 @@
+import svgr from "vite-plugin-svgr";
 import path from "path";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
@@ -33,5 +34,5 @@ export default defineConfig({
   //react() enables React support.
   //dts() generates TypeScript declaration files (*.d.ts)
   //during the build.
-  plugins: [react(), dts()],
+  plugins: [react(), svgr(), dts()],
 });
