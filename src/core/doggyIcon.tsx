@@ -24,7 +24,7 @@ const DoggyIcon = ({
     },
     destructive: {
       filter:
-        "invert(12%) sepia(89%) saturate(1000%) hue-rotate(300deg) brightness(89%) contrast(115%);",
+        "invert(12%) sepia(89%) saturate(1000%) hue-rotate(300deg) brightness(89%) contrast(115%)",
     },
     safe: {
       filter:
@@ -59,8 +59,8 @@ const DoggyIcon = ({
       break;
   }
   const iconStyle = {
-    ...style,
     ...showColorType,
+    ...style,
     ...(!style.width && { width: sizeMap[size] }),
     ...(!style.height && { height: sizeMap[size] }),
   };

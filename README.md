@@ -41,7 +41,10 @@ import DoggyIcon from "doggy_icon";
 
 - icon
 - size: small | medium | large
+- colorType: primary | destructive | safe | warning | info
 - style
+
+If you need to customize properties, you can enter your custom properties in the "style".
 
 ### Contributor
 
@@ -73,6 +76,15 @@ import DoggyIcon from "doggy_icon";
       </a>
         <br />
         <a href="#designer-joanna" title="Design">🎨</a>
+    </td>
+      <td align="center" valign="top" width="14.28%">
+      <a href="https://github.com/ottovenliu">
+        <img src="./public/otto.png" width="100px" height="100px" style="object-fit: cover" alt="otto"/>
+        <br />
+        <sub><b>otto</b></sub>
+      </a>
+        <br />
+        <a href="#developer-otto" title="Design">💻</a>
     </td>
   </tr>
 </table>
